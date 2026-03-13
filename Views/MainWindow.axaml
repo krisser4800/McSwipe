@@ -1,83 +1,11 @@
-<UserControl xmlns="https://github.com/avaloniaui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:vm="clr-namespace:McSwipe.ViewModels"
-             x:Class="McSwipe.Views.MainView">
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:views="clr-namespace:McSwipe.Views"
+        x:Class="McSwipe.Views.MainWindow"
+        Width="420"
+        Height="720"
+        Title="McSwipe">
 
-    <UserControl.DataContext>
-        <vm:MainViewModel />
-    </UserControl.DataContext>
+    <views:MainView />
 
-    <Grid RowDefinitions="*,Auto" Margin="20">
-
-        <!-- Burger Card -->
-        <Border Grid.Row="0"
-                Background="#FAFAFA"
-                CornerRadius="20"
-                Padding="20"
-                BoxShadow="0 0 12 #33000000">
-
-            <StackPanel Spacing="10">
-
-                <!-- Image -->
-                <Border CornerRadius="16" ClipToBounds="True">
-                    <Image Source="{Binding Current.Image}"
-                           Height="220"
-                           Stretch="UniformToFill"/>
-                </Border>
-
-                <!-- Name -->
-                <TextBlock Text="{Binding Current.Name}"
-                           FontSize="30"
-                           FontWeight="SemiBold"
-                           Foreground="#222"
-                           TextAlignment="Center"
-                           Margin="0,12,0,0"
-                           Effect="drop-shadow(0 1 2 #40000000)"/>
-
-                <!-- Description -->
-                <TextBlock Text="{Binding Current.Description}"
-                           FontSize="18"
-                           Foreground="#444"
-                           TextWrapping="Wrap"
-                           TextAlignment="Center"
-                           LineHeight="22"
-                           Margin="10,4,10,0"/>
-
-                <!-- Price -->
-                <TextBlock Text="{Binding Current.Price, StringFormat='{}{0} kr'}"
-                           FontSize="26"
-                           FontWeight="Bold"
-                           Foreground="#111"
-                           TextAlignment="Center"
-                           Margin="0,14,0,0"/>
-
-            </StackPanel>
-        </Border>
-
-        <!-- Buttons -->
-        <StackPanel Grid.Row="1"
-                    Orientation="Horizontal"
-                    HorizontalAlignment="Center"
-                    Spacing="40"
-                    Margin="0,25,0,0">
-
-            <Button Content="❌ Skip"
-                    Width="140"
-                    Height="45"
-                    Background="#E57373"
-                    Foreground="White"
-                    CornerRadius="10"
-                    Command="{Binding SwipeLeft}"/>
-
-            <Button Content="❤️ Like"
-                    Width="140"
-                    Height="45"
-                    Background="#81C784"
-                    Foreground="White"
-                    CornerRadius="10"
-                    Command="{Binding SwipeRight}"/>
-
-        </StackPanel>
-
-    </Grid>
-</UserControl>
+</Window>
