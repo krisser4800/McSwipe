@@ -14,6 +14,7 @@
                 Padding="20"
                 BoxShadow="0 0 12 #33000000">
             <StackPanel Spacing="10">
+                <TextBlock Text="IMAGE FAILED" Foreground="Red" FontSize="20"/>
                 <Border CornerRadius="16" ClipToBounds="True">
                     <Image Source="{Binding Current.Image}"
                            Height="220"

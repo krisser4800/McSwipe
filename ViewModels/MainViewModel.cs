@@ -12,21 +12,21 @@ public class MainViewModel : ReactiveObject
             Name = "Big Mac",
             Description = "Classic beef burger",
             Price = 39,
-            Image = "avares://McSwipe/Assets/bigmac.png"
+            Image = "avares://McSwipe/Assets/bigmac.png?assembly=McSwipe"
         },
         new Burger
         {
             Name = "McChicken",
             Description = "Crispy chicken with mayo",
             Price = 35,
-            Image = "avares://McSwipe/Assets/mcchicken.png"
+            Image = "avares://McSwipe/Assets/mcchicken.png?assembly=McSwipe"
         },
         new Burger
         {
             Name = "McPlant",
             Description = "Plant-based deliciousness",
             Price = 42,
-            Image = "avares://McSwipe/Assets/mcplant.png"
+            Image = "avares://McSwipe/Assets/mcplant.png?assembly=McSwipe"
         }
     };
 

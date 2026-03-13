@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("McSwipe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f66e662529a5f874fdb30fb67f45f585be699668")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b7f7bd02fff20b0ba72d31e95e5879877e4b56e")]
 [assembly: System.Reflection.AssemblyProductAttribute("McSwipe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("McSwipe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
