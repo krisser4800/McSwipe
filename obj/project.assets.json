@@ -269,6 +269,22 @@
           }
         }
       },
+      "Avalonia.Themes.Fluent/11.0.10": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.0.10"
+        },
+        "compile": {
+          "lib/net6.0/Avalonia.Themes.Fluent.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Avalonia.Themes.Fluent.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Avalonia.Themes.Simple/11.0.10": {
         "type": "package",
         "dependencies": {
@@ -1735,6 +1751,22 @@
         "lib/net6.0/Avalonia.Skia.xml",
         "lib/netstandard2.0/Avalonia.Skia.dll",
         "lib/netstandard2.0/Avalonia.Skia.xml"
+      ]
+    },
+    "Avalonia.Themes.Fluent/11.0.10": {
+      "sha512": "V7xu7ddtUFwYHb+u3S4he2/PGGUHkeTI66j3PyGTZi0Uz8Ma4prb/Lgz7Qd/vpO4lukxw1G4DmxB1tClNS9qUw==",
+      "type": "package",
+      "path": "avalonia.themes.fluent/11.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "avalonia.themes.fluent.11.0.10.nupkg.sha512",
+        "avalonia.themes.fluent.nuspec",
+        "lib/net6.0/Avalonia.Themes.Fluent.dll",
+        "lib/net6.0/Avalonia.Themes.Fluent.xml",
+        "lib/netstandard2.0/Avalonia.Themes.Fluent.dll",
+        "lib/netstandard2.0/Avalonia.Themes.Fluent.xml"
       ]
     },
     "Avalonia.Themes.Simple/11.0.10": {
@@ -4510,7 +4542,8 @@
       "Avalonia >= 11.0.10",
       "Avalonia.Desktop >= 11.0.10",
       "Avalonia.Diagnostics >= 11.0.10",
-      "Avalonia.ReactiveUI >= 11.0.10"
+      "Avalonia.ReactiveUI >= 11.0.10",
+      "Avalonia.Themes.Fluent >= 11.0.10"
     ]
   },
   "packageFolders": {
@@ -4569,6 +4602,10 @@
             "version": "[11.0.10, )"
           },
           "Avalonia.ReactiveUI": {
+            "target": "Package",
+            "version": "[11.0.10, )"
+          },
+          "Avalonia.Themes.Fluent": {
             "target": "Package",
             "version": "[11.0.10, )"
           }

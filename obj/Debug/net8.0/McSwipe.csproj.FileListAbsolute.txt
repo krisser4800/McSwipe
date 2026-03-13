@@ -128,3 +128,4 @@ C:\Users\krist\OneDrive\Desktop\2 Semester\Digtial innovation\McSwipe\obj\Debug\
 C:\Users\krist\OneDrive\Desktop\2 Semester\Digtial innovation\McSwipe\obj\Debug\net8.0\McSwipe.csproj.Up2Date
 C:\Users\krist\OneDrive\Desktop\2 Semester\Digtial innovation\McSwipe\obj\Debug\net8.0\McSwipe.genruntimeconfig.cache
 C:\Users\krist\OneDrive\Desktop\2 Semester\Digtial innovation\McSwipe\obj\Debug\net8.0\ref\McSwipe.dll
+C:\Users\krist\OneDrive\Desktop\2 Semester\Digtial innovation\McSwipe\bin\Debug\net8.0\Avalonia.Themes.Fluent.dll

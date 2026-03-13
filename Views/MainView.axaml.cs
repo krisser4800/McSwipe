@@ -1,13 +1,11 @@
 using Avalonia.Controls;
-using McSwipe.ViewModels;
 
 namespace McSwipe.Views;
 
-public partial class MainWindow : Window
+public partial class MainView : UserControl
 {
-    public MainWindow()
+    public MainView()
     {
         InitializeComponent();
-        DataContext = new MainViewModel();
     }
 }
